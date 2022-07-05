@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, {createGlobalStyle} from 'styled-components';
 import "./intro.css";
+import "./introtexteffect";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -61,7 +62,7 @@ function Intro() {
     return(
         <>
             <Menubar>
-                <a className = "intro" target = "_blank" href = "https://blog-project-5f635.web.app/">Site</a> /
+                <a className = "intro" href = "https://blog-project-5f635.web.app/">Site</a> /
                 <a className = "intro" target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Blog</a> /
                 <a className = "intro" target = "_blank" href = "https://github.com/sonpring"> Github</a> /
                 <a className = "intro" target = "_blank" href = "https://www.notion.so/62f43fd77a4442a087a02efbbe3b29ae?v=3fc2b959a56944e89143311144b72afc"> Notion</a> /
