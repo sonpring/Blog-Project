@@ -5,7 +5,7 @@ import "./introtexteffect";
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background : #212121;
+    background : black;
   }`;
 
 const Menubar = styled.div`
@@ -60,7 +60,7 @@ const SecondBlock = styled.div`
   }
 `;
 
-function Intro() {
+function Profile() {
     return(
         <>
             <Menubar>
@@ -82,7 +82,7 @@ function Intro() {
                 <div className = "intro">개발자를 꿈꾸는 사람입니다.</div>
             </SecondBlock>
         </>
-        )
+    )
 }
 
-export default Intro;
+export default Profile;
