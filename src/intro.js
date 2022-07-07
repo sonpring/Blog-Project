@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, {createGlobalStyle} from 'styled-components';
+import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
 import "./intro.css";
 import "./introtexteffect";
 
@@ -14,11 +15,11 @@ const Menubar = styled.div`
   border : 1px solid #DBE4EB;
   height : 20px;
   width : 432px;
-  overflow : hidden;
+  margin-left: auto;
+  margin-right : 4%;
   padding-left : 8px;
   padding-top : 4px;
   padding-bottom : 4px;
-  margin-left : 65%;
   margin-top : 1%;
 `;
 
@@ -27,7 +28,7 @@ const FirstBlock = styled.div`
   width : 50%;
   margin : 0 auto;
   background-color: #DBE4EB;
-  margin-top : 20%;
+  margin-top : 40vh;
   padding-left : 2%;
   padding-right : 40%;
   padding-bottom : 1%;
@@ -60,6 +61,22 @@ const SecondBlock = styled.div`
   }
 `;
 
+const Arrow = styled.div`
+{
+  width : 80px;
+  height : 80px;
+  border : 1.5px solid white;
+  border-radius: 45px;
+  color : white;
+  font-size : 60px;
+  margin-top : 7vh;
+  margin-left : 45vw;
+  display : flex;
+  align-items: center;
+  justify-content: center;
+}
+`;
+
 function Intro() {
     return(
         <>
@@ -81,6 +98,9 @@ function Intro() {
             <SecondBlock>
                 <div className = "intro">개발자를 꿈꾸는 사람입니다.</div>
             </SecondBlock>
+            <Arrow>
+                <HiOutlineChevronDoubleDown/>
+            </Arrow>
         </>
         )
 }
