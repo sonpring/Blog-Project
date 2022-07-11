@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import "./profile.css";
+import "./portfolio.css";
 import {HiOutlineChevronDoubleDown} from "react-icons/hi";
 
 const Menubarspace = styled.div`
@@ -76,7 +76,7 @@ const Arrow = styled.div`
 }
 `;
 
-function Profile() {
+function Portfolio() {
     return(
         <>
             <Menubarspace/>
@@ -96,4 +96,4 @@ function Profile() {
     )
 }
 
-export default Profile;
+export default Portfolio;

@@ -2,6 +2,9 @@ import './App.css';
 import { useState, useRef, useEffect } from "react";
 import Intro from './intro';
 import Profile from './profile';
+import Status from './status';
+import Portfolio from './portfolio';
+import Contact from './contact';
 const DIVIDER_HEIGHT = 5;
 
 function App() {
@@ -133,21 +136,21 @@ function App() {
         <div className = "page1">
             <Intro/>
         </div>
-        <div className = "divider"></div>
+        <div className = "boundary"/>
         <div className = "page2">
-            <Intro/>
+            <Profile/>
         </div>
-        <div className = "divider"></div>
+        <div className = "boundary"/>
         <div className = "page3">
-            <Intro/>
+            <Status/>
         </div>
-        <div className = "divider"></div>
+        <div className = "boundary"/>
         <div className = "page4">
-            <Intro/>
+            <Portfolio/>
         </div>
-        <div className = "divider"></div>
+        <div className = "boundary"/>
         <div className = "page5">
-            <Intro/>
+            <Contact/>
         </div>
     </div>
   );

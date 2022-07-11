@@ -1,13 +1,13 @@
 import React from 'react';
-import styled, {createGlobalStyle} from 'styled-components';
+import styled from 'styled-components';
 import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
 import "./intro.css";
 import "./introtexteffect";
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    background : #212121;
-  }`;
+const Menubarspace = styled.div`
+  height : 1vh;
+  color : #212121;
+`;
 
 const Menubar = styled.div`
   font-size : 16px;
@@ -28,6 +28,7 @@ const FirstBlock = styled.div`
   width : 50%;
   margin : 0 auto;
   background-color: #DBE4EB;
+  font-color : #212121;
   margin-top : 40vh;
   padding-left : 2%;
   padding-right : 40%;
@@ -65,9 +66,9 @@ const Arrow = styled.div`
 {
   width : 80px;
   height : 80px;
-  border : 1.5px solid white;
+  border : 1.5px solid #DBE4EB;
   border-radius: 45px;
-  color : white;
+  color : #DBE4EB;
   font-size : 60px;
   margin-top : 7vh;
   margin-left : 45vw;
@@ -80,6 +81,7 @@ const Arrow = styled.div`
 function Intro() {
     return(
         <>
+            <Menubarspace/>
             <Menubar>
                 <a className = "intro" href = "https://blog-project-5f635.web.app/">Site</a> /
                 <a className = "intro" target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Blog</a> /
@@ -89,7 +91,6 @@ function Intro() {
                 <a className = "intro" target = "_blank" href = "https://www.instagram.com/sontothepring/"> Instagram</a> /
                 <a className = "intro" target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Kakao</a>
             </Menubar>
-            <GlobalStyle/>
             <FirstBlock>
                 <div className = "first">Practice</div>
                 <div className = "second">Makes</div>

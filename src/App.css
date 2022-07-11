@@ -15,26 +15,30 @@ body{
 
 .page1 {
     height: 100vh;
+    background-color: #212121;
 }
 
 .page2 {
     height: 100vh;
+    background-color: beige;
 }
 
 .page3 {
     height: 100vh;
+    background-color: #212121;
 }
 
 .page4 {
     height: 100vh;
+    background-color: beige;
 }
 
 .page5 {
     height: 100vh;
+    background-color: #212121;
 }
 
-.divider {
-    width: 100%;
-    height: 5px;
-    background-color: gray;
+.boundary {
+    height : 5px;
+    background-color: red;
 }

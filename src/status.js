@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import "./profile.css";
+import "./status.css";
 import {HiOutlineChevronDoubleDown} from "react-icons/hi";
 
 const Menubarspace = styled.div`
   height : 1vh;
-  background-color : beige;
+  background-color : #212121;
 `;
 
 const Menubar = styled.div`
@@ -76,7 +76,7 @@ const Arrow = styled.div`
 }
 `;
 
-function Profile() {
+function Status() {
     return(
         <>
             <Menubarspace/>
@@ -96,4 +96,4 @@ function Profile() {
     )
 }
 
-export default Profile;
+export default Status;
