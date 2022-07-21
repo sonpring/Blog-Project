@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
-import "./intro.css";
+import "./page1.css";
 import "./introtexteffect";
 
 const Menubarspace = styled.div`
@@ -38,16 +38,20 @@ const FirstBlock = styled.div`
   .first
   {
     font-size : 40px;
+    color : #212121;
   }
   
   .second
   {
     font-size : 40px;
+    color : #212121;
+
   }
 
   .third
   {
     font-size : 40px;
+    color : #212121;
   }
 `;
 
@@ -78,18 +82,18 @@ const Arrow = styled.div`
 }
 `;
 
-function Intro() {
+function Page1() {
     return(
         <>
             <Menubarspace/>
             <Menubar>
-                <a className = "intro" href = "https://blog-project-5f635.web.app/">Site</a> /
-                <a className = "intro" target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Blog</a> /
-                <a className = "intro" target = "_blank" href = "https://github.com/sonpring"> Github</a> /
-                <a className = "intro" target = "_blank" href = "https://www.notion.so/62f43fd77a4442a087a02efbbe3b29ae?v=3fc2b959a56944e89143311144b72afc"> Notion</a> /
-                <a className = "intro" target = "_blank" href = "https://www.facebook.com/profile.php?id=100005280990404"> Facebook</a> /
-                <a className = "intro" target = "_blank" href = "https://www.instagram.com/sontothepring/"> Instagram</a> /
-                <a className = "intro" target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Kakao</a>
+                <a className = "page1" href = "https://blog-project-5f635.web.app/">Site</a> /
+                <a className = "page1" target = "_blank" href = "https://blog.naver.com/sontothepring"> Blog</a> /
+                <a className = "page1" target = "_blank" href = "https://github.com/sonpring"> Github</a> /
+                <a className = "page1" target = "_blank" href = "https://www.notion.so/62f43fd77a4442a087a02efbbe3b29ae?v=3fc2b959a56944e89143311144b72afc"> Notion</a> /
+                <a className = "page1" target = "_blank" href = "https://www.facebook.com/profile.php?id=100005280990404"> Facebook</a> /
+                <a className = "page1" target = "_blank" href = "https://www.instagram.com/sontothepring/"> Instagram</a> /
+                <a className = "page1" target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Kakao</a>
             </Menubar>
             <FirstBlock>
                 <div className = "first">Practice</div>
@@ -106,4 +110,4 @@ function Intro() {
         )
 }
 
-export default Intro;
+export default Page1;

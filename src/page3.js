@@ -1,24 +1,24 @@
 import React from 'react';
 import styled from 'styled-components';
-import "./portfolio.css";
+import "./page3.css";
 import {HiOutlineChevronDoubleDown} from "react-icons/hi";
 
 const Menubarspace = styled.div`
   height : 1vh;
-  background-color : beige;
+  background-color : #212121;
 `;
 
 const Menubar = styled.div`
   font-size : 16px;
-  color : #DBE4EB;
-  border : 1px solid #DBE4EB;
+  color : #212121;
+  border : 1px solid #212121;
   height : 20px;
   width : 432px;
-  overflow : hidden;
+  margin-left: auto;
+  margin-right : 4%;
   padding-left : 8px;
   padding-top : 4px;
   padding-bottom : 4px;
-  margin-left : 65%;
   margin-top : 1%;
 `;
 
@@ -76,7 +76,7 @@ const Arrow = styled.div`
 }
 `;
 
-function Portfolio() {
+function Page3() {
     return(
         <>
             <Menubarspace/>
@@ -96,4 +96,4 @@ function Portfolio() {
     )
 }
 
-export default Portfolio;
+export default Page3;

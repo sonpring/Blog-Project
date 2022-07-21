@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import "./profile.css";
+import "./page4.css";
 import {HiOutlineChevronDoubleDown} from "react-icons/hi";
 
 const Menubarspace = styled.div`
@@ -10,15 +10,15 @@ const Menubarspace = styled.div`
 
 const Menubar = styled.div`
   font-size : 16px;
-  color : #DBE4EB;
-  border : 1px solid #DBE4EB;
+  color : #212121;
+  border : 1px solid #212121;
   height : 20px;
   width : 432px;
-  overflow : hidden;
+  margin-left: auto;
+  margin-right : 4%;
   padding-left : 8px;
   padding-top : 4px;
   padding-bottom : 4px;
-  margin-left : 65%;
   margin-top : 1%;
 `;
 
@@ -76,7 +76,7 @@ const Arrow = styled.div`
 }
 `;
 
-function Profile() {
+function Page4() {
     return(
         <>
             <Menubarspace/>
@@ -96,4 +96,4 @@ function Profile() {
     )
 }
 
-export default Profile;
+export default Page4;

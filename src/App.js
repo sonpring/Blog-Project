@@ -1,13 +1,14 @@
 import './App.css';
 import { useState, useRef, useEffect } from "react";
-import Intro from './intro';
-import Profile from './profile';
-import Status from './status';
-import Portfolio from './portfolio';
-import Contact from './contact';
+import Page1 from './page1';
+import Page2 from './page2';
+import Page3 from './page3';
+import Page4 from './page4';
+import Page5 from './page5';
 const DIVIDER_HEIGHT = 5;
 
 function App() {
+    /*
     const outerDivRef = useRef();
     useEffect(() => {
         const wheelHandler = (e) => {
@@ -130,27 +131,24 @@ function App() {
             outerDivRefCurrent.removeEventListener("wheel", wheelHandler);
         };
     }, []);
+    */
 
   return (
-    <div ref = {outerDivRef} className="outer">
+    <div /*ref = {outerDivRef}*/ className="outer">
         <div className = "page1">
-            <Intro/>
+            <Page1/>
         </div>
-        <div className = "boundary"/>
         <div className = "page2">
-            <Profile/>
+            <Page2/>
         </div>
-        <div className = "boundary"/>
         <div className = "page3">
-            <Status/>
+            <Page3/>
         </div>
-        <div className = "boundary"/>
         <div className = "page4">
-            <Portfolio/>
+            <Page4/>
         </div>
-        <div className = "boundary"/>
         <div className = "page5">
-            <Contact/>
+            <Page5/>
         </div>
     </div>
   );
