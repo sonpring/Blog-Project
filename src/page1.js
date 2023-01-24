@@ -4,23 +4,18 @@ import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
 import "./page1.css";
 import "./introtexteffect";
 
-const Menubarspace = styled.div`
-  height : 1vh;
-  color : #212121;
-`;
-
 const Menubar = styled.div`
-  font-size : 16px;
-  color : #DBE4EB;
   border : 1px solid #DBE4EB;
+  color : #DBE4EB;
+  font-size : 18px;
   height : 20px;
-  width : 432px;
+  margin-top : 28px;
   margin-left: auto;
   margin-right : 4%;
-  padding-left : 8px;
   padding-top : 4px;
-  padding-bottom : 4px;
-  margin-top : 1%;
+  padding-bottom : 8px;
+  padding-left : 8px;
+  width : 488px;
 `;
 
 const FirstBlock = styled.div`
@@ -29,7 +24,7 @@ const FirstBlock = styled.div`
   margin : 0 auto;
   background-color: #DBE4EB;
   font-color : #212121;
-  margin-top : 40vh;
+  margin-top : 50vh;
   padding-left : 2%;
   padding-right : 40%;
   padding-bottom : 1%;
@@ -83,31 +78,36 @@ const Arrow = styled.div`
 `;
 
 function Page1() {
-    return(
-        <>
-            <Menubarspace/>
-            <Menubar>
-                <a className = "page1" href = "https://blog-project-5f635.web.app/">Site</a> /
-                <a className = "page1" target = "_blank" href = "https://blog.naver.com/sontothepring"> Blog</a> /
-                <a className = "page1" target = "_blank" href = "https://github.com/sonpring"> Github</a> /
-                <a className = "page1" target = "_blank" href = "https://www.notion.so/62f43fd77a4442a087a02efbbe3b29ae?v=3fc2b959a56944e89143311144b72afc"> Notion</a> /
-                <a className = "page1" target = "_blank" href = "https://www.facebook.com/profile.php?id=100005280990404"> Facebook</a> /
-                <a className = "page1" target = "_blank" href = "https://www.instagram.com/sontothepring/"> Instagram</a> /
-                <a className = "page1" target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Kakao</a>
-            </Menubar>
-            <FirstBlock>
-                <div className = "first">Practice</div>
-                <div className = "second">Makes</div>
-                <div className = "third">Perfect.</div>
-            </FirstBlock>
-            <SecondBlock>
-                <div className = "intro">개발자를 꿈꾸는 사람입니다.</div>
-            </SecondBlock>
-            <Arrow>
-                <HiOutlineChevronDoubleDown/>
-            </Arrow>
-        </>
-        )
+  return(
+    <div className = "page1body">     
+      <div className = "header">
+        <Menubar>
+          <a className = "page1" href = "https://blog-project-5f635.web.app/">Site</a> /
+          <a className = "page1" target = "_blank" href = "https://blog.naver.com/sontothepring"> Blog</a> /
+          <a className = "page1" target = "_blank" href = "https://github.com/sonpring"> Github</a> /
+          <a className = "page1" target = "_blank" href = "https://www.notion.so/62f43fd77a4442a087a02efbbe3b29ae?v=3fc2b959a56944e89143311144b72afc"> Notion</a> /
+          <a className = "page1" target = "_blank" href = "https://www.facebook.com/profile.php?id=100005280990404"> Facebook</a> /
+          <a className = "page1" target = "_blank" href = "https://www.instagram.com/sontothepring/"> Instagram</a> /
+          <a className = "page1" target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Kakao</a>
+        </Menubar>
+      </div>
+      <div className = "p1body">
+        <FirstBlock>
+            <div className = "first">Practice</div>
+            <div className = "second">Makes</div>
+            <div className = "third">Perfect.</div>
+        </FirstBlock>
+        <SecondBlock>
+            <div className = "intro">개발자를 꿈꾸는 사람입니다.</div>
+        </SecondBlock>
+      </div>
+      <div className = "footer">
+        <Arrow>
+          <HiOutlineChevronDoubleDown/>
+        </Arrow>
+      </div> 
+    </div>
+  )
 }
 
 export default Page1;

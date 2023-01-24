@@ -1,5 +1,8 @@
-.page1
-{
-    text-decoration-line: none;
-    color : #DBE4EB;
+.header {
+    display : grid;
+}
+
+.header a {
+    color : inherit;
+    text-decoration: none;
 }
