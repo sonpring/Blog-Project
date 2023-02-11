@@ -8,11 +8,6 @@ body{
     overflow-y : auto;
 }
 
-/* 화면에서 스크롤바 안보이게 */
-.outer::-webkit-scrollbar {
-    display: none;
-}
-
 .page1 {
     height: 100vh;
     background-repeat: no-repeat;

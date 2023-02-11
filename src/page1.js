@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
 import "./page1.css";
-import "./introtexteffect";
+import Typing from './typing.js';
 
 const Menubar = styled.div`
   border : 1px solid #DBE4EB;
@@ -21,6 +21,7 @@ const Menubar = styled.div`
 const FirstBlock = styled.div`
   color : gray();
   width : 50%;
+  height : 171px;
   margin : 0 auto;
   background-color: #DBE4EB;
   font-color : #212121;
@@ -29,25 +30,6 @@ const FirstBlock = styled.div`
   padding-right : 40%;
   padding-bottom : 1%;
   padding-top : 1%;
-  
-  .first
-  {
-    font-size : 40px;
-    color : #212121;
-  }
-  
-  .second
-  {
-    font-size : 40px;
-    color : #212121;
-
-  }
-
-  .third
-  {
-    font-size : 40px;
-    color : #212121;
-  }
 `;
 
 const SecondBlock = styled.div`
@@ -93,9 +75,7 @@ function Page1() {
       </div>
       <div className = "p1body">
         <FirstBlock>
-            <div className = "first">Practice</div>
-            <div className = "second">Makes</div>
-            <div className = "third">Perfect.</div>
+          <Typing text ='Practice Makes Perfect.' speed = {120} fontSize = "32pt" color = "#212121" />
         </FirstBlock>
         <SecondBlock>
             <div className = "intro">개발자를 꿈꾸는 사람입니다.</div>
@@ -111,3 +91,4 @@ function Page1() {
 }
 
 export default Page1;
+
