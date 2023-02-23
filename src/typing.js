@@ -31,7 +31,7 @@ const Typing = ({text, speed, fontSize, color}) => {
     return () => clearInterval(interval);
 })
   return (
-    <div style={{fontSize:`${fontSize}`, color:`${color}`}} >{ Text }</div>
+    <div className = "typer" style={{fontSize:`${fontSize}`, color:`${color}`}} >{ Text }</div>
   )
 };
 

@@ -25,7 +25,7 @@ const FirstBlock = styled.div`
   margin : 0 auto;
   background-color: #DBE4EB;
   font-color : #212121;
-  margin-top : 50vh;
+  margin-top : 25%;
   padding-left : 2%;
   padding-right : 40%;
   padding-bottom : 1%;
@@ -51,8 +51,8 @@ const Arrow = styled.div`
   border-radius: 45px;
   color : #DBE4EB;
   font-size : 60px;
-  margin-top : 7vh;
-  margin-left : 45vw;
+  margin-top : 7%;
+  margin-left : 45%;
   display : flex;
   align-items: center;
   justify-content: center;

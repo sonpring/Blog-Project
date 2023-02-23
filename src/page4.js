@@ -9,17 +9,17 @@ const Menubarspace = styled.div`
 `;
 
 const Menubar = styled.div`
-  font-size : 16px;
+  border : 2px solid #212121;
   color : #212121;
-  border : 1px solid #212121;
+  font-size : 18px;
   height : 20px;
-  width : 432px;
+  margin-top : 28px;
   margin-left: auto;
   margin-right : 4%;
-  padding-left : 8px;
   padding-top : 4px;
-  padding-bottom : 4px;
-  margin-top : 1%;
+  padding-bottom : 8px;
+  padding-left : 8px;
+  width : 488px;
 `;
 
 const FirstBlock = styled.div`

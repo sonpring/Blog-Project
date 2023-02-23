@@ -9,7 +9,7 @@ body{
 }
 
 .page1 {
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -35,9 +35,4 @@ body{
 .page5 {
     height: 100vh;
     background-color: #212121;
-}
-
-.boundary {
-    height : 5px;
-    background-color: red;
 }

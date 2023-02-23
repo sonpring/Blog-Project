@@ -1,11 +1,39 @@
-.page2
-{
-    text-decoration-line: none;
-    color : #212121;
+.page2body {
+    display : grid;
 }
 
-.one
-{
-    display : flex;
+/* 위에 빈칸 채워줌. 그리드로 만들어서*/
+ .header {
+    display : grid;
 }
+
+.header a {
+    color : inherit;
+    text-decoration: none;
+}
+
+.period1 {
+    float : left;
+    padding-right : 60px;
+    padding-left : 40px;
+}
+
+.period2 {
+    float : left;
+    padding-right : 150px;
+    padding-left : 40px;
+}
+
+.period3 {
+    float : left;
+    padding-right : 60px;
+    padding-left : 40px;
+}
+
+.TBC{
+    padding-left : 40px;
+    padding-top : 80px;
+}
+
+
 
