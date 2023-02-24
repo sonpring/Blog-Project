@@ -1,5 +1,20 @@
-.intro
-{
-    text-decoration-line: none;
-    color : #DBE4EB;
+.page3body {
+    white-space: pre-line;
+    height : 100%;
+    width : 100%;
+}
+
+ /* 위에 빈칸 채워줌. 그리드로 만들어서*/
+.header {
+    display : grid;
+}
+
+/* 하이퍼링크 색깔 변경, 밑줄 삭제*/
+.header a {
+    color : inherit;
+    text-decoration: none;
+}
+
+.p3body {
+    display : grid;
 }

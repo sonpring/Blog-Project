@@ -1,12 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
 import "./page4.css";
-import {HiOutlineChevronDoubleDown} from "react-icons/hi";
-
-const Menubarspace = styled.div`
-  height : 1vh;
-  background-color : beige;
-`;
 
 const Menubar = styled.div`
   border : 2px solid #212121;
@@ -22,43 +17,6 @@ const Menubar = styled.div`
   width : 488px;
 `;
 
-const FirstBlock = styled.div`
-  color : gray();
-  width : 50%;
-  margin : 0 auto;
-  background-color: #DBE4EB;
-  margin-top : 20%;
-  padding-left : 2%;
-  padding-right : 40%;
-  padding-bottom : 1%;
-  padding-top : 1%;
-  
-  .first
-  {
-    font-size : 40px;
-  }
-  
-  .second
-  {
-    font-size : 40px;
-  }
-
-  .third
-  {
-    font-size : 40px;
-  }
-`;
-
-const SecondBlock = styled.div`
-  .intro
-  {
-    padding-top : 1%;
-    padding-left : 6%;
-    padding-bottom : 1%;
-    font-size : 16px;
-    color : #DBE4EB;
-  }
-`;
 
 const Arrow = styled.div`
 {
@@ -68,8 +26,8 @@ const Arrow = styled.div`
   border-radius: 45px;
   color : #DBE4EB;
   font-size : 60px;
-  margin-top : 7vh;
-  margin-left : 45vw;
+  margin-top : 7%;
+  margin-left : 45%;
   display : flex;
   align-items: center;
   justify-content: center;
@@ -77,23 +35,29 @@ const Arrow = styled.div`
 `;
 
 function Page4() {
-    return(
-        <>
-            <Menubarspace/>
-            <Menubar>
-                <a className = "intro" href = "https://blog-project-5f635.web.app/">Site</a> /
-                <a className = "intro" target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Blog</a> /
-                <a className = "intro" target = "_blank" href = "https://github.com/sonpring"> Github</a> /
-                <a className = "intro" target = "_blank" href = "https://www.notion.so/62f43fd77a4442a087a02efbbe3b29ae?v=3fc2b959a56944e89143311144b72afc"> Notion</a> /
-                <a className = "intro" target = "_blank" href = "https://www.facebook.com/profile.php?id=100005280990404"> Facebook</a> /
-                <a className = "intro" target = "_blank" href = "https://www.instagram.com/sontothepring/"> Instagram</a> /
-                <a className = "intro" target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Kakao</a>
-            </Menubar>
-            <Arrow>
-                <HiOutlineChevronDoubleDown/>
-            </Arrow>
-        </>
-    )
+  return(
+    <div className = "page1body">     
+      <div className = "header">
+        <Menubar>
+          <a href = "https://blog-project-5f635.web.app/">Site</a> /
+          <a target = "_blank" href = "https://blog.naver.com/sontothepring"> Blog</a> /
+          <a target = "_blank" href = "https://github.com/sonpring"> Github</a> /
+          <a target = "_blank" href = "https://www.notion.so/62f43fd77a4442a087a02efbbe3b29ae?v=3fc2b959a56944e89143311144b72afc"> Notion</a> /
+          <a target = "_blank" href = "https://www.facebook.com/profile.php?id=100005280990404"> Facebook</a> /
+          <a target = "_blank" href = "https://www.instagram.com/sontothepring/"> Instagram</a> /
+          <a target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Kakao</a>
+        </Menubar>
+      </div>
+      <div className = "p1body">
+      </div>
+      <div className = "footer">
+        <Arrow>
+          <HiOutlineChevronDoubleDown/>
+        </Arrow>
+      </div> 
+    </div>
+  )
 }
 
 export default Page4;
+

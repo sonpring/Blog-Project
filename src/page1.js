@@ -64,13 +64,13 @@ function Page1() {
     <div className = "page1body">     
       <div className = "header">
         <Menubar>
-          <a className = "page1" href = "https://blog-project-5f635.web.app/">Site</a> /
-          <a className = "page1" target = "_blank" href = "https://blog.naver.com/sontothepring"> Blog</a> /
-          <a className = "page1" target = "_blank" href = "https://github.com/sonpring"> Github</a> /
-          <a className = "page1" target = "_blank" href = "https://www.notion.so/62f43fd77a4442a087a02efbbe3b29ae?v=3fc2b959a56944e89143311144b72afc"> Notion</a> /
-          <a className = "page1" target = "_blank" href = "https://www.facebook.com/profile.php?id=100005280990404"> Facebook</a> /
-          <a className = "page1" target = "_blank" href = "https://www.instagram.com/sontothepring/"> Instagram</a> /
-          <a className = "page1" target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Kakao</a>
+          <a href = "https://blog-project-5f635.web.app/">Site</a> /
+          <a target = "_blank" href = "https://blog.naver.com/sontothepring"> Blog</a> /
+          <a target = "_blank" href = "https://github.com/sonpring"> Github</a> /
+          <a target = "_blank" href = "https://www.notion.so/62f43fd77a4442a087a02efbbe3b29ae?v=3fc2b959a56944e89143311144b72afc"> Notion</a> /
+          <a target = "_blank" href = "https://www.facebook.com/profile.php?id=100005280990404"> Facebook</a> /
+          <a target = "_blank" href = "https://www.instagram.com/sontothepring/"> Instagram</a> /
+          <a target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Kakao</a>
         </Menubar>
       </div>
       <div className = "p1body">

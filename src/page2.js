@@ -39,7 +39,7 @@ const Whoami = styled.div`
 `
 
 
-const Desk = styled.div `
+const Desk = styled.div`
   margin-top : 8%;
   width : 28%;
   padding-right : 68px;
@@ -86,13 +86,13 @@ function Page2() {
         <div className = "page2body"> 
           <div className = "header">
             <Menubar>
-              <a className = "page2" href = "https://blog-project-5f635.web.app/">Site</a> /
-              <a className = "page2" target = "_blank" href = "https://blog.naver.com/sontothepring"> Blog</a> /
-              <a className = "page2" target = "_blank" href = "https://github.com/sonpring"> Github</a> /
-              <a className = "page2" target = "_blank" href = "https://www.notion.so/62f43fd77a4442a087a02efbbe3b29ae?v=3fc2b959a56944e89143311144b72afc"> Notion</a> /
-              <a className = "page2" target = "_blank" href = "https://www.facebook.com/profile.php?id=100005280990404"> Facebook</a> /
-              <a className = "page2" target = "_blank" href = "https://www.instagram.com/sontothepring/"> Instagram</a> /
-              <a className = "page2" target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Kakao</a>
+              <a href = "https://blog-project-5f635.web.app/">Site</a> /
+              <a target = "_blank" href = "https://blog.naver.com/sontothepring"> Blog</a> /
+              <a target = "_blank" href = "https://github.com/sonpring"> Github</a> /
+              <a target = "_blank" href = "https://www.notion.so/62f43fd77a4442a087a02efbbe3b29ae?v=3fc2b959a56944e89143311144b72afc"> Notion</a> /
+              <a target = "_blank" href = "https://www.facebook.com/profile.php?id=100005280990404"> Facebook</a> /
+              <a target = "_blank" href = "https://www.instagram.com/sontothepring/"> Instagram</a> /
+              <a target = "_blank" href = "https://www.youtube.com/watch?v=DPEtmqvaKqY&ab_channel=%EA%B3%A0%EC%84%B8%EA%B5%ACGOSEGU"> Kakao</a>
             </Menubar>
           </div>
           <P2body>
@@ -102,8 +102,8 @@ function Page2() {
               <div align = "right"className = "third">I?</div>
             </Whoami>
             <Desk>
-                <div>뭐하는지는 저도 모르겠고요</div>
-                <div>시키면 열심히 하겠습니다.</div>
+                <div>뭐하는 사람인지는 저도 아직 모르긴 한데요,</div>
+                <div>아무튼 열심히 합니다.</div>
             </Desk>
           </P2body>
           <div>
