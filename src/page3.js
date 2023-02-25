@@ -19,9 +19,15 @@ const Menubar = styled.div`
 `;
 
 const P3body = styled.div`
-  border : 1px solid #DBE4EB;
-  height : 660%;
+  height : 100%;
   width : 60%;
+`
+
+const P3st = styled.div`
+  border : 1px solid #DBE4EB;
+  height : 25%;
+  width : 100%;
+  display : grid;
 `
 
 const Arrow = styled.div`
@@ -32,7 +38,6 @@ const Arrow = styled.div`
   border-radius: 45px;
   color : #DBE4EB;
   font-size : 60px;
-  margin-top : 7%;
   margin-left : 45%;
   display : flex;
   align-items: center;
@@ -56,7 +61,22 @@ function Page3() {
       </div>
       <div className = "p3body">
         <P3body>
-
+          <div className = "stbody">
+            <div className = "status">WebStack</div>
+            <div className = "blank"></div>
+          </div>
+          <div className = "stbody">
+            <div className = "blank"></div>
+            <div className = "status">System</div>
+          </div>  
+          <div className = "stbody">
+            <div className = "status">Game</div>
+            <div className = "blank"></div>
+          </div>
+          <div className = "stbody">
+            <div className = "blank"></div>
+            <div className = "status">AI</div>
+          </div>  
         </P3body>
       </div>
       <div className = "footer">
